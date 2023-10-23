@@ -1,0 +1,11 @@
+$command = "node file.js"
+$workingDirectory = "C:\my\projects\templates\url"
+
+do {
+    $output = Invoke-Expression $command
+} while ($output -is [System.Management.Automation.ErrorRecord])
+
+Write-Host "Команда была прервана. Запуск команды повторно..."
+
+Set-Location -Path $workingDirectory
+Invoke-Expression $command

@@ -1,0 +1,27 @@
+{
+  "name": "url_name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node file.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "charset": "^1.0.1",
+    "cheerio": "^1.0.0-rc.12",
+    "excel4node": "^1.8.2",
+    "exceljs": "^4.4.0",
+    "iconv-lite": "^0.6.3",
+    "inflation": "^2.1.0",
+    "needle": "^3.2.0",
+    "node-fetch": "^3.3.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "sleep-promise": "^9.1.0",
+    "valido": "^2.1.0"
+  }
+}
